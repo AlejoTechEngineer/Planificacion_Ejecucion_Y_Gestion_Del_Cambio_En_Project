@@ -24,21 +24,6 @@ Laboratorio de gestión de proyectos con **Microsoft Project**: construcción de
 | `*.pdf` | Informe de planificación, ejecución y control |
 | `*.docx` | Documentación del laboratorio |
 
-## Conceptos aplicados
-
-- Construcción de EDT/WBS y asignación de duraciones
-- Configuración de recursos y nivelación de sobreasignaciones
-- Línea base (Baseline) y seguimiento de variaciones (CV, SV, CPI, SPI)
-- Ruta crítica (CPM) y análisis de holgura
-- Proceso formal de gestión del cambio (Change Control)
-
-## Contexto académico
-
-**Asignatura:** Dirección y Gestión Empresas TI · **Institución:** UNIR · Ingeniería Informática
-**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
-
----
-
 ## Arquitectura
 
 ```mermaid
@@ -55,6 +40,21 @@ flowchart TD
     I --> J
     J --> K[Informe PDF - Planificacion Final]
 ```
+
+## Conceptos aplicados
+
+- Construcción de EDT/WBS y asignación de duraciones
+- Configuración de recursos y nivelación de sobreasignaciones
+- Línea base (Baseline) y seguimiento de variaciones (CV, SV, CPI, SPI)
+- Ruta crítica (CPM) y análisis de holgura
+- Proceso formal de gestión del cambio (Change Control)
+
+## Contexto académico
+
+**Asignatura:** Dirección y Gestión Empresas TI · **Institución:** UNIR · Ingeniería Informática
+**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
+
+---
 
 ## Autor
 
