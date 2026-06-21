@@ -39,6 +39,23 @@ Laboratorio de gestión de proyectos con **Microsoft Project**: construcción de
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Cronograma de Trabajo.mpp - MS Project] --> B[EDT/WBS - Desglose de Trabajo]
+    B --> C[Asignacion Recursos - Humanos y Materiales]
+    C --> D[Festivos.xlsx - Calendario Colombia]
+    D --> E[Linea Base Baseline - Plan Original]
+    E --> F[Ejecucion del Proyecto - Seguimiento Real]
+    F --> G[Analisis Variacion - CPI / SPI / CV / SV]
+    G --> H{Desviacion Detectada?}
+    H -->|Si| I[Gestion del Cambio - Change Control]
+    H -->|No| J[Ruta Critica CPM - Holgura Calculada]
+    I --> J
+    J --> K[Informe PDF - Planificacion Final]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
